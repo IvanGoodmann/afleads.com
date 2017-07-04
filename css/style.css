@@ -1,0 +1,215 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+@font-face {
+    font-family: 'GoodTimesRg-Regular';
+    src: url('../fonts/GoodTimesRg-Regular.woff') format('woff'),
+    url('../fonts/GoodTimesRg-Regular.ttf') format('truetype'),
+    url('../fonts/GoodTimesRg-Regular.svg#GoodTimesRg-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'goodtimesrg';
+    src: url('../fonts/goodtimesrg.eot');
+    src: url('../fonts/goodtimesrg.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.goodtime {
+    font-family: 'GoodTimesRg-Regular', sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    line-height: 1.2;
+    background: #f4f4f4;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.dib {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.block-wrapper {
+    padding-left: 230px;
+}
+
+.block-wrapper .container-fluid {
+    padding: 0;
+}
+
+.sidebar-menu {
+    position: fixed;
+    z-index: 999;
+    width: 230px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #103836;
+}
+
+.sidebar-menu .b_logo {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 25px 25px;
+    cursor: pointer;
+    background: #113d3a;
+    transition: all linear 0.5s;
+}
+
+.sidebar-menu .b_logo span {
+    color: #18c466;
+}
+
+.nav_toggle_btn {
+    float: right;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px 10px 0 0;
+}
+
+.nav_toggle_btn i {
+    display: block;
+    height: 3px;
+    width: 25px;
+    margin: 0 0 3px;
+    background: #2a6865;
+}
+
+.nav-stacked>li:before,
+.nav-stacked>li:after {
+    position: absolute;
+    z-index: 9;
+    width: 20px;
+    height: 20px;
+    top: 30%;
+    left: 20px;
+    color: #33544d;
+}
+
+.nav-pills li a {
+    font-family: 'Open Sans', sans-serif;
+    color: #f1f1f1;
+    padding: 15px 0;
+    padding-left: 50px;
+}
+
+.nav-pills li a .badge {
+    background: rgba(12, 118, 106, 0.89);
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background: #0f2b29;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+    font-weight: bold;
+    color: #19d46d;
+    background: #0f2b29;
+}
+
+.nav-stacked>li.active:before {
+    color: #19d46d;
+}
+
+header {
+    padding: 24px 25px;
+    background: #ebebeb;
+}
+
+header .b_manager h5 {
+    width: 48%;
+    font-size: 16px;
+    line-height: 1;
+    color: #7c7b84;
+    margin: 0;
+}
+
+header .b_manager select {
+    font-size: 14px;
+    font-weight: bold;
+    color: #19d46d;
+    text-align: center;
+    text-align-last: center;
+    border: none;
+    outline: none;
+    padding: 5px 30px 6px 30px;
+    border-radius: 20px;
+    background: url("../img/arrow_select.png") no-repeat 95% 5px,
+    url("../img/maneger_select_ico.png")no-repeat 7% 7px #f7f7f7;
+}
+
+header .dropdown {
+    float: right;
+}
+
+header .dropdown .btn {
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #7c7b84;
+    outline: none;
+    border: none;
+    padding: 2px 30px 2px 5px;
+    background: url("../img/arrow_select.png")no-repeat 95% 2px;
+}
+
+header .dropdown-menu {
+    left: -40px;
+}
+
+.btn:focus, .btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    outline: none;
+}
+
+.content-wrapper {
+    padding: 30px 40px;
+}
+
+.one {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: #000000;
+}
+
+.two {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background: #ff0033;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
