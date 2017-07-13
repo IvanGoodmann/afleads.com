@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic" rel="stylesheet">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -21,7 +21,7 @@
 </head>
 <body>
 
-<main data-ng-app="afApp" ng-controller="appCtrl">
+<main>
     <section class="block-wrapper">
         <div class="container-fluid">
             <div class="sidebar-menu">
@@ -33,18 +33,19 @@
                         <i></i>
                     </div>
                 </div>
-                <ul class="nav nav-pills nav-stacked {{cssclass}}">
+
+                <ul class="nav nav-pills nav-stacked">
                     <li class="active fa fa-tachometer">
                         <a href="index.html">Главная</a>
                     </li>
                     <li class="fa fa-bar-chart">
                         <a href="statistics.html">Статистика</a>
                     </li>
-                    <li class="fa fa-list-ul" ng-click="one">
-                        <a href="#">Офферы</a>
+                    <li class="fa fa-list-ul">
+                        <a href="offers.html">Офферы</a>
                     </li>
-                    <li class="fa fa-wrench" ng-click="two">
-                        <a href="#">Инструменты</a>
+                    <li class="fa fa-wrench">
+                        <a href="tools.html">Инструменты</a>
                     </li>
                     <li class="fa fa-money">
                         <a href="cash.html">Выплаты</a>
@@ -59,9 +60,9 @@
             </div>
             <header>
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-md-12 col-sm-12">
                         <div class="row">
-                            <div class="col-xs-3">
+                            <div class="col-lg-4 col-sm-8">
                                 <div class="b_manager">
                                     <h5 class="dib">
                                         Ваш менеджер:
@@ -75,7 +76,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-xs-2 col-xs-offset-7">
+                            <div class="col-lg-2 col-lg-offset-6 col-sm-4">
                                 <div class="dropdown">
                                     <button class="btn dropdown-toggle" type="button" id="dropdownMenu1"
                                             data-toggle="dropdown">
@@ -87,7 +88,7 @@
                                         </li>
                                         <li role="presentation">
                                             <a role="menuitem" tabindex="-1" href="#">Другое
-                                            действие</a>
+                                                действие</a>
                                         </li>
                                         <li role="presentation">
                                             <a role="menuitem" tabindex="-1" href="#">Что-то еще</a>
@@ -95,7 +96,7 @@
                                         <li role="presentation" class="divider"></li>
                                         <li role="presentation">
                                             <a role="menuitem" tabindex="-1" href="#">Отдельная
-                                            ссылка</a>
+                                                ссылка</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -104,9 +105,183 @@
                     </div>
                 </div>
             </header>
-            <div class="content-wrapper" >
-                <div class="active"></div>
-                <div class="active"></div>
+            <div class="content-wrapper">
+                <div class="row">
+                    <div class="col-lg-5 col-xs-12">
+                        <div class="center">
+                            <div class="small_box hosts">
+                                <p>
+                                    Хосты
+                                </p>
+                                <h3>
+                                    10251
+                                </h3>
+                                <div class="icon"></div>
+                            </div>
+                            <div class="small_box convert">
+                                <p>
+                                    Конверсии
+                                </p>
+                                <h3>
+                                    5252
+                                </h3>
+                                <div class="icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-xs-12">
+                        <div class="center">
+                            <div class="small_box balance">
+                                <p>
+                                    Баланс
+                                </p>
+                                <h3>
+                                    $2145
+                                </h3>
+                                <div class="icon"></div>
+                            </div>
+                            <div class="small_box hold">
+                                <p>
+                                    Холд
+                                </p>
+                                <h3>
+                                    $1623
+                                </h3>
+                                <div class="icon"></div>
+                            </div>
+                            <div class="small_box cash_full">
+                                <p>
+                                    Доступно
+                                </p>
+                                <h3>
+                                    $523
+                                </h3>
+                                <div class="icon"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-xs-12">
+                        <div class="news_box">
+                            <h2>
+                                Новости
+                            </h2>
+                            <div class="info_box">
+                                <div class="b_img dib">
+                                    <img src="img/news.jpg" alt="">
+                                </div>
+                                <div class="b_txt dib">
+                                    <h3>
+                                        Internet usage in Portugal
+                                    </h3>
+                                    <p>
+                                        It is high time to share with you our regular article related to Internet usage
+                                        in Portugal. This GEO is really promising for running marketing campaigns there
+                                        and our nutra offers are a real evidence to it.
+                                    </p>
+                                    <p class="r_more">
+                                        <a href="news.html">
+                                            read more
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news_box">
+                            <h2>
+                                Новости
+                            </h2>
+                            <div class="info_box">
+                                <div class="b_img dib">
+                                    <img src="img/news.jpg" alt="">
+                                </div>
+                                <div class="b_txt dib">
+                                    <h3>
+                                        Internet usage in Portugal
+                                    </h3>
+                                    <p>
+                                        It is high time to share with you our regular article related to Internet usage
+                                        in Portugal. This GEO is really promising for running marketing campaigns there
+                                        and our nutra offers are a real evidence to it.
+                                    </p>
+                                    <p class="r_more">
+                                        <a href="news.html">
+                                            read more
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news_box">
+                            <h2>
+                                Новости
+                            </h2>
+                            <div class="info_box">
+                                <div class="b_img dib">
+                                    <img src="img/news.jpg" alt="">
+                                </div>
+                                <div class="b_txt dib">
+                                    <h3>
+                                        Internet usage in Portugal
+                                    </h3>
+                                    <p>
+                                        It is high time to share with you our regular article related to Internet usage
+                                        in Portugal. This GEO is really promising for running marketing campaigns there
+                                        and our nutra offers are a real evidence to it.
+                                    </p>
+                                    <p class="r_more">
+                                        <a href="news.html">
+                                            read more
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 col-xs-12">
+                        <div class="offers_box">
+                            <h2>
+                                Новые офферы
+                            </h2>
+                            <div class="offer_box_img">
+                                <img src="img/offers_box_img.png" alt="">
+                            </div>
+                            <div class="offer_box_img">
+                                <img src="img/offers_box_img.png" alt="">
+                            </div>
+                            <div class="offer_box_img">
+                                <img src="img/offers_box_img.png" alt="">
+                            </div>
+                            <div class="offer_box_img">
+                                <img src="img/offers_box_img.png" alt="">
+                            </div>
+                            <div class="offer_box_img">
+                                <img src="img/offers_box_img.png" alt="">
+                            </div>
+                        </div>
+                        <div class="offers_box">
+                            <h2>
+                                Топ-5 офферы
+                            </h2>
+                            <div class="offer_box_img">
+                                <img src="img/offers_box_img.png" alt="">
+                            </div>
+                            <div class="offer_box_img">
+                                <img src="img/offers_box_img.png" alt="">
+                            </div>
+                            <div class="offer_box_img">
+                                <img src="img/offers_box_img.png" alt="">
+                            </div>
+                            <div class="offer_box_img">
+                                <img src="img/offers_box_img.png" alt="">
+                            </div>
+                            <div class="offer_box_img">
+                                <img src="img/offers_box_img.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -117,7 +292,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 <script src="js/vendor/bootstrap.min.js"></script>
-<script src="js/vendor/angular.min.js"></script>
 
 <script defer src="js/app.js"></script>
 <script defer src="js/main.js"></script>
