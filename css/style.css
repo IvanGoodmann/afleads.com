@@ -238,7 +238,7 @@ header .dropdown-menu {
 }
 
 .content-wrapper {
-    padding: 20px 15px 0;
+    padding: 20px 30px 30px;
 }
 
 .center {
@@ -813,7 +813,7 @@ header .dropdown-menu {
     font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0  0 15px;
+    margin: 0  0 22px;
 }
 
 .offer_name_info .content_offer_name_info__box .offer_tabs_box .landing_preview .input-group-addon,
@@ -897,7 +897,504 @@ header .dropdown-menu {
     opacity: 1;
 }
 
+.offer_name_info .content_offer_name_info__box .landing_list h4 {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0 0 15px;
+}
+
+.offer_name_info .content_offer_name_info__box .landing_list ul {
+    padding: 0;
+}
+
+.offer_name_info .content_offer_name_info__box .landing_list li {
+    font-size: 15px;
+    word-break: break-all;
+    list-style-type: none;
+    margin: 0 0 5px;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.offer_name_info .content_offer_name_info__box .landing_list li:hover {
+    border-radius: 3px;
+    color: #fff;
+    background: #949494;
+}
+
+.offer_name_info .content_offer_name_info__box .traffic_list h4 {
+    font-size: 22px;
+    font-weight: normal;
+    margin: 0 0 15px;
+}
+
+.offer_name_info .content_offer_name_info__box .traffic_list .input-group-addon {
+    background: none;
+    padding: 15px 15px;
+}
+
+.offer_name_info .content_offer_name_info__box .traffic_list .input-group:nth-child(even) {
+    background: #eeeeee;
+}
+
+.offer_name_info .content_offer_name_info__box .traffic_list .txt_site {
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
+
+.offer_name_info .content_offer_name_info__box .traffic_list .form-control {
+    height: 100%;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+}
+
+.offer_name_info .content_offer_name_info__box .traffic_list .txt_allowed {
+    position: relative;
+    font-size: 16px;
+    font-weight: normal;
+    border: none;
+    border-radius: 2px;
+    padding-left: 20px;
+}
+
+.offer_name_info .content_offer_name_info__box .traffic_list .allowed {
+    color: #0bb41b;
+}
+
+.offer_name_info .content_offer_name_info__box .traffic_list .prohibited {
+    color: #bf0000;
+}
+
+.offer_name_info .content_offer_name_info__box .traffic_list .allowed:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: url("../img/accept.png")no-repeat center;
+}
+
+.offer_name_info .content_offer_name_info__box .traffic_list .prohibited:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: url("../img/no_accept.png")no-repeat center;
+}
+
+
 /*offer_name_info*/
+
+/*cash*/
+
+.content_cash h2 {
+    font-size: 50px;
+    font-weight: 300;
+    color: #575757;
+    margin: 0 0 15px;
+}
+
+.content_cash .content_cash__box {
+    padding: 20px;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+.content_cash .content_cash__box .table tr td, .content_cash .content_cash__box .table tr th {
+    vertical-align: middle;
+    font-size: 15px;
+    text-align: center;
+    color: #585858;
+    padding: 10px 15px;
+    border: none;
+}
+
+.content_cash .content_cash__box .table tr th {
+    text-transform: uppercase;
+}
+
+.content_cash .content_cash__box .table tr th:first-child {
+    text-align: left;
+}
+
+.content_cash .content_cash__box .table tbody tr td:first-child {
+    width: 40%;
+    text-align: left;
+}
+
+.content_cash .content_cash__box .card_number span {
+    position: relative;
+}
+
+.content_cash .content_cash__box .card_number span:before {
+    content: "";
+    position: absolute;
+    width: 27px;
+    height: 16px;
+    background: url("../img/master_ico.png")no-repeat center;
+    left: -33px;
+    top: 10%;
+}
+
+/*cash*/
+
+/*referrals*/
+
+.content_referrals h2 {
+    font-size: 50px;
+    font-weight: 300;
+    color: #575757;
+    margin: 0 0 15px;
+}
+
+.content_referrals .content_referrals__box {
+    padding: 20px;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+.content_referrals .content_referrals__box .table tr td, .content_referrals .content_referrals__box .table tr th {
+    vertical-align: middle;
+    font-size: 16px;
+    text-align: center;
+    color: #585858;
+    padding: 10px 15px;
+    border: none;
+}
+
+.content_referrals .content_referrals__box .table tbody tr {
+    border-top: 1px solid #ebebeb;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.content_referrals .content_referrals__box .table tr th {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.content_referrals .content_referrals__box .table tr td {
+    padding: 20px 15px;
+}
+
+.content_referrals .content_referrals__box .table tr th:first-child,
+.content_referrals .content_referrals__box .table tr td:first-child {
+    text-align: left;
+}
+
+/*referrals*/
+
+/*profile*/
+
+.content_profile h2 {
+    font-size: 50px;
+    font-weight: 300;
+    color: #575757;
+    margin: 0 0 15px;
+}
+
+.content_profile .content_profile__box {
+    padding: 20px 30px 20px 20px;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+.content_profile h3 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #575757;
+    margin: 0 0 15px;
+}
+
+.content_profile .data__box .form__box .input-group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.content_profile .data__box .form__box .input-group-addon {
+    width: 110px;
+    font-size: 15px;
+    text-align: right;
+    color: #585858;
+    border: none;
+    background: none;
+}
+
+.content_profile .data__box .form__box .input_form_box {
+    border-radius: 3px;
+    background: #f9f9f9;
+}
+
+.content_profile .data__box .form__box .input_form_box input {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    line-height: 1;
+    outline: none;
+    border: none;
+    padding: 0 0 3px;
+    background: none;
+}
+
+.content_profile .btn_box {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    margin: 20px auto 0;
+    margin-left: 20px;
+    padding: 10px 5px;
+    cursor: pointer;
+    background: #5bc873;
+}
+
+.hvr-rectangle-out:before {
+    border-radius: 3px;
+}
+
+.content_profile .password__box .form__box .input-group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.content_profile .password__box .form__box .input-group-addon {
+    width: 170px;
+    font-size: 15px;
+    text-align: right;
+    color: #585858;
+    border: none;
+    background: none;
+}
+
+.content_profile .password__box .form__box .input-group-addon .red {
+    color: #ff0000;
+}
+
+.content_profile .password__box .form__box .input_form_box {
+    border-radius: 3px;
+    background: #f9f9f9;
+}
+
+.content_profile .password__box .form__box .input_form_box input {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    line-height: 1;
+    outline: none;
+    border: none;
+    padding: 0 0 3px;
+    background: none;
+}
+
+.content_profile .referral_program__box h4 {
+    font-size: 15px;
+    color: #585858;
+    margin: 15px 0 10px;
+}
+
+.content_profile .referral_program__box .form__box .input_form_box {
+    border-radius: 3px;
+    background: #f9f9f9;
+}
+
+.content_profile .referral_program__box .form__box .input-group {
+    width: 100%;
+}
+
+.content_profile .api_key__box .form__box .input-group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.content_profile .api_key__box .form__box .input-group-addon {
+    width: 90px;
+    font-size: 15px;
+    text-align: right;
+    color: #585858;
+    border: none;
+    background: none;
+}
+
+.content_profile .api_key__box .form__box .input_form_box {
+    width: 80%;
+    overflow: hidden;
+    border-radius: 3px;
+    background: #f9f9f9;
+}
+
+.content_profile .api_key__box .form__box .api_btn_gen {
+    max-width: 340px;
+    margin-left: 90px;
+
+}
+
+.content_profile .global_postback__box table thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #585858;
+    text-align: center;
+    border: none;
+}
+
+.content_profile .global_postback__box table thead th:first-child {
+    width: 60%;
+    text-align: left;
+}
+
+.content_profile .global_postback__box table thead th:nth-child(2) {
+    width: 20%;
+}
+
+.content_profile .global_postback__box table tbody td {
+    vertical-align: middle;
+    font-size: 16px;
+    color: #585858;
+    text-align: center;
+}
+
+.content_profile .global_postback__box table tbody td:first-child {
+    text-align: left;
+}
+
+.content_profile .global_postback__box .status_postback {
+    width: 95%;
+    font-size: 14px;
+    text-align: left;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px 15px 5px 5px;
+    background: #f9f9f9 url("../img/sel3.png")no-repeat 92% 50%;
+}
+
+.content_profile .global_postback__box tbody tr:nth-child(odd) .status_postback {
+    background: #fff url("../img/sel3.png")no-repeat 92% 50%;
+}
+
+.content_profile .global_postback__box .delete {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    background: url("../img/delete.png")no-repeat center;
+}
+
+.content_profile .global_postback__box .postback_btn_add {
+    font-size: 13px;
+    border-radius: 3px;
+    margin: 0 auto 15px;
+}
+
+.content_profile .global_postback__box .postback_btn_save {
+    margin: 0 auto;
+}
+
+.content_profile .global_postback__box .tutorial_postback {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+    text-decoration: underline;
+    color: #0057b0;
+}
+
+.content_profile .local_set__box .form__box .input-group {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.content_profile .local_set__box .form__box .input-group-addon {
+    width: 155px;
+    font-size: 15px;
+    text-align: right;
+    color: #585858;
+    border: none;
+    background: none;
+}
+
+.content_profile .local_set__box .form__box .input_form_box {
+    width: 80%;
+    overflow: hidden;
+    border-radius: 3px;
+    padding: 0;
+    background: #f9f9f9;
+}
+
+.content_profile .local_set__box .form__box .local_lang {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 3px 15px 0 5px;
+    background: #f9f9f9 url("../img/sel3.png")no-repeat 97% 60%;
+}
+
+.content_profile .local_set__box .form__box .local_btn_save {
+    max-width: 260px;
+    margin-left: 155px;
+
+}
+
+.content_profile .payment__box .payment_system {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px 15px 10px 10px;
+    background: #f9f9f9 url("../img/sel3.png")no-repeat 95% 50%;
+}
+
+.content_profile .payment__box .payment_currency {
+    width: 100%;
+    font-size: 18px;
+    text-align: left;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px 15px 10px 10px;
+    background: #f9f9f9 url("../img/sel3.png")no-repeat 95% 50%;
+}
+
+.content_profile .payment__box .payment_btn_add {
+    margin-left: 0;
+}
+
+/*profile*/
+
+/*tickets*/
+
+
+
+/*tickets*/
+
+
+@media screen and (max-width: 992px) {
+
+    .offer_name_info .content_offer_name_info__box .tracking_box {
+        width: 100%;
+    }
+
+    .content_profile .api_key__box .form__box .input_form_box,
+    .content_profile .local_set__box .form__box .input_form_box {
+        width: 100%;
+    }
+
+}
 
 
 
