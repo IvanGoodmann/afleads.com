@@ -89,7 +89,7 @@
                                             <a role="menuitem" tabindex="-1" href="referrals.html">Рефералы</a>
                                         </li>
                                         <li role="presentation">
-                                            <a role="menuitem" tabindex="-1" href="#">Что-то еще</a>
+                                            <a role="menuitem" tabindex="-1" href="tickets.html">Тикеты</a>
                                         </li>
                                         <li role="presentation" class="divider"></li>
                                         <li role="presentation">
@@ -106,10 +106,220 @@
             <div class="content-wrapper content_tickets">
                 <div class="row">
                     <div class="col-lg-12">
-                        <h2>
-                            Тикеты
-                        </h2>
-
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <h2>
+                                    Тикеты
+                                </h2>
+                            </div>
+                            <div class="col-md-3 col-md-offset-6 col-sm-6">
+                                <div class="btn_box hvr-rectangle-out" data-toggle="modal" data-target="#ticketModal">
+                                    + Создать тикет
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="ticketModal" tabindex="-1" role="dialog" aria-labelledby="ticketModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                                        <h4 class="modal-title" id="myModalLabel">
+                                            Добавление тикета
+                                        </h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <select name="ticket_type" class="ticket_select ticket_choice">
+                                                    <option value="">Выберите тип тикета</option>
+                                                    <option value="">Тикет</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <input type="text" name="ticket_title" class="ticket_choice" placeholder="Заголовок">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <textarea class="ticket_choice" name="ticket_problem" id="" cols="30" rows="10" placeholder="Описание проблемы"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="ticket_btn_add btn_box hvr-rectangle-out">Создать тикет</button>
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="content_ticket__box">
+                            <table class="table table-striped">
+                                <thead>
+                                <tr>
+                                    <th>
+                                        ID
+                                    </th>
+                                    <th>
+                                        Дата
+                                    </th>
+                                    <th>
+                                        Заголовок тикета
+                                    </th>
+                                    <th>
+                                        Тип тикета
+                                    </th>
+                                    <th>
+                                        Ответы
+                                    </th>
+                                    <th>
+                                        Статус
+                                    </th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="ticket_id">
+                                            #1
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_date">
+                                            2012-04-16
+                                        </span>
+                                        <span class="ticket_time">
+                                            16:14:24
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_title">
+                                            Тикет
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_type">
+                                            Общие вопросы
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_answer">
+                                            6
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_status active">
+                                            Открыт
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="ticket_id">
+                                            #2
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_date">
+                                            2012-04-16
+                                        </span>
+                                        <span class="ticket_time">
+                                            17:28:24
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_title">
+                                            Тикет
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_type">
+                                            Общие вопросы
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_answer">
+                                            8
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_status active">
+                                            Открыт
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="ticket_id">
+                                            #3
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_date">
+                                            2012-04-16
+                                        </span>
+                                        <span class="ticket_time">
+                                            17:44:24
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_title">
+                                            Тикет
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_type">
+                                            Общие вопросы
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_answer">
+                                            3
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_status active">
+                                            Открыт
+                                        </span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <span class="ticket_id">
+                                            #4
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_date">
+                                            2012-04-16
+                                        </span>
+                                        <span class="ticket_time">
+                                            15:28:24
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_title">
+                                            Тикет
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_type">
+                                            Общие вопросы
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_answer">
+                                            6
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <span class="ticket_status closed">
+                                            Закрыт
+                                        </span>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
             </div>

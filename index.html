@@ -17,7 +17,12 @@
     <link rel="stylesheet" href="css/style.css">
 
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
 
 </head>
 <body>
@@ -85,14 +90,13 @@
                                     </button>
                                     <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
                                         <li role="presentation">
-                                            <a role="menuitem" tabindex="-1" href="#">Действие</a>
+                                            <a role="menuitem" tabindex="-1" href="profile.html">Профиль</a>
                                         </li>
                                         <li role="presentation">
-                                            <a role="menuitem" tabindex="-1" href="#">Другое
-                                                действие</a>
+                                            <a role="menuitem" tabindex="-1" href="referrals.html">Рефералы</a>
                                         </li>
                                         <li role="presentation">
-                                            <a role="menuitem" tabindex="-1" href="#">Что-то еще</a>
+                                            <a role="menuitem" tabindex="-1" href="tickets.html">Тикеты</a>
                                         </li>
                                         <li role="presentation" class="divider"></li>
                                         <li role="presentation">
@@ -165,7 +169,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="chart">
-
+                            <div id="chartdiv"></div>
                         </div>
                     </div>
                 </div>

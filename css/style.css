@@ -406,6 +406,15 @@ header .dropdown-menu {
     margin: 0 auto;
 }
 
+.amcharts-chart-div a {
+    display: none!important;
+}
+
+#chartdiv {
+    width	: 100%;
+    height	: 500px;
+}
+
 /*content_news*/
 
 .content_news h2 {
@@ -1378,10 +1387,139 @@ header .dropdown-menu {
 
 /*tickets*/
 
+.content_tickets h2 {
+    font-size: 50px;
+    font-weight: 300;
+    color: #575757;
+    margin: 0 0 15px;
+}
 
+.content_tickets .content_ticket__box {
+    padding: 20px 30px 20px 20px;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    background: #fff;
+}
+
+.content_tickets .content_ticket__box thead th {
+    vertical-align: middle;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #585858;
+    border: 1px solid #ebebeb;
+    padding: 5px 15px;
+}
+
+.content_tickets .content_ticket__box tbody td {
+    vertical-align: middle;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ebebeb;
+    padding: 20px 15px;
+}
+
+.content_tickets .content_ticket__box thead th:first-child,
+.content_tickets .content_ticket__box tbody td:first-child {
+    border-left: none;
+}
+
+.content_tickets .content_ticket__box thead th:last-child,
+.content_tickets .content_ticket__box tbody td:last-child {
+    border-right: none;
+}
+
+.content_tickets .content_ticket__box thead th:nth-child(3) {
+    text-align: left;
+}
+
+.content_tickets .content_ticket__box tbody td:nth-child(3) {
+    text-align: left;
+}
+
+.content_tickets .content_ticket__box tbody td .active {
+    font-weight: bold;
+    color: #19d46d;
+}
+
+.content_tickets .content_ticket__box tbody td .closed {
+    font-weight: bold;
+    color: #de2020;
+}
+
+.content_tickets .content_ticket__box tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.content_tickets .btn_box {
+    display: block;
+    max-width: 250px;
+    float: right;
+    clear: both;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    margin: 15px auto 0;
+    padding: 10px 15px;
+    cursor: pointer;
+    background: #5bc873;
+}
+
+.content_tickets .modal-header,
+.content_tickets .modal-footer,
+.content_tickets .modal-body {
+    border: none;
+    padding: 15px 30px;
+}
+
+.content_tickets .modal-header .modal-title {
+    font-size: 36px;
+    font-weight: 300;
+    color: #575757;
+}
+
+.content_tickets .modal-body .ticket_choice {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #d8d8d8;
+    outline: none;
+}
+
+.content_tickets .modal-body .ticket_select {
+    background: #f9f9f9 url("../img/sel3.png")no-repeat 95% 50%;
+}
+
+.content_tickets .modal-dialog {
+    width: 750px;
+}
+
+.content_tickets .modal-body textarea {
+    margin-top: 15px;
+    resize: none;
+}
+
+.content_tickets .modal-footer {
+    text-align: left;
+}
+
+.content_tickets .modal-footer button {
+    outline: none;
+    border: none;
+    float: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 15px 0 0;
+}
+
+.content_tickets .modal-footer .btn {
+    border: 1px solid #d8d8d8;
+}
 
 /*tickets*/
-
 
 @media screen and (max-width: 992px) {
 
